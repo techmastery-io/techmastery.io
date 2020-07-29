@@ -1,0 +1,27 @@
+{
+  "title": "Main concepts",
+  "summary": "",
+  "concepts": [
+    "overview",
+    "installation",
+    "vue-instance-and-data-properties",
+    "methods",
+    "computed-properties-and-watchers",
+    "rendering-directives-and-events",
+    "class-and-style-bindings"
+  ],
+  "courses": [
+    {
+      "title": "Intro to Vue.js",
+      "created_by": "Vue Mastery",
+      "type": "Free",
+      "url": "https://www.youtube.com/playlist?list=PLJNLwTPak6di8DuZNdRJEmNgFA-eIHcJ6"
+    },
+    {
+      "title": "Vue JS 2 Tutorial",
+      "created_by": "The Net Ninja",
+      "type": "Free",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa"
+    }
+  ]
+}

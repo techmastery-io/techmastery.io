@@ -1,0 +1,17 @@
+{
+  "title": "Essential tools",
+  "summary": "",
+  "concepts": ["devtool", "vetur", "vue-snippets"],
+  "courses": [
+    {
+      "title": "Git and GitHub for Beginners - Crash Course",
+      "created_by": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=RGOj5yH7evk"
+    },
+    {
+      "title": "Version Control with Git",
+      "created_by": "Udacity",
+      "url": "https://www.udacity.com/course/version-control-with-git--ud123"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Vue.js Developer",
+  "description": "The complete roadmap",
+  "bg_color": "background-image:linear-gradient(to right, #35495E, #41B883)",
+  "icon": "VuejsIcon",
+  "sections": [
+    {
+      "title": "Essentials",
+      "cores": [
+        {
+          "title": "Main Concepts",
+          "description": "Overview · Installation · Vue Instance · Methods · Computed · Watchers and more...",
+          "to": "fundamentals",
+          "keep_with_next": true
+        },
+        {
+          "title": "Components and lifecycle hooks",
+          "description": "Components Basics · Props  · Lifecycle hooks · Single File Components",
+          "to": "components-and-lifecycle-hooks"
+        },
+        {
+          "title": "Essential tools",
+          "description": "Debugging with Vue.js Devtool · Vetur  · Vue snippets",
+          "concepts": ["Vue.js Devtool", "Vetur", "Vue snippets"],
+          "to": "essential-tools"
+        }
+      ]
+    },
+    {
+      "title": "Intermediate",
+      "cores": [
+        {
+          "title": "Vue router",
+          "description": "Arrow Functions · Promises · Async / Await · Template Strings · Destructuring",
+          "to": "vue-router"
+        },
+        {
+          "title": "API clients",
+          "description": "Axios · Native fetch · Apollo",
+          "related_icons": ["VuejsIcon", "ApolloGraphQLIcon"],
+          "to": "api-clients"
+        },
+        {
+          "title": "State management with Vuex",
+          "description": "Arrow Functions · Promises · Async / Await · Template Strings · Destructuring",
+          "to": "vuex"
+        },
+        {
+          "title": "Components In-Depth",
+          "description": "Slots · Dynamic components · Async Components · Render functions",
+          "to": "components-in-depth"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Topics",
+      "cores": [
+        {
+          "title": "Vue router In-Depth",
+          "description": "Lazy loading · Navigation Guards · Global Router Hooks",
+          "to": "vue-router-in-depth"
+        },
+        {
+          "title": "Server Side Rendering with Nuxt.js",
+          "description": "Axios · Apollo · Native fetch",
+          "related_icons": ["NuxtIcon"]
+        },
+        {
+          "title": "Testing",
+          "description": "Jest · Vue Test Utils · Cypress",
+          "related_icons": ["JestIcon", "CypressIcon"]
+        },
+        {
+          "title": "Type Checkers",
+          "description": "Vue props types · TypeScript",
+          "related_icons": ["TypeScriptIcon"]
+        },
+        {
+          "title": "Internationalization",
+          "description": "i18n"
+        }
+      ]
+    }
+  ]
+}

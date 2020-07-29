@@ -1,0 +1,19 @@
+{
+  "title": "JavaScript Essentials",
+  "summary": "Learn the basics, objects, events, functions, arrays, loops, scope and dates.",
+  "concepts": [
+    "overview",
+    "objects",
+    "functions",
+    "arrays",
+    "loops-and-iterations",
+    "scope"
+  ],
+  "courses": [
+    {
+      "title": "JavaScript Crash Course For Beginners",
+      "created_by": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c"
+    }
+  ]
+}

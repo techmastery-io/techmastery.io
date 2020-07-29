@@ -1,0 +1,11 @@
+{
+  "title": "Components and lifecycle hooks",
+  "summary": "",
+  "concepts": [
+    "components-basics",
+    "components-communication",
+    "lifecycle-hooks",
+    "single-file-components"
+  ],
+  "courses": []
+}

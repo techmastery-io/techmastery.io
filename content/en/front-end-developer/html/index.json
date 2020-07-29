@@ -1,0 +1,18 @@
+{
+  "title": "HTML",
+  "summary": "HTML is a markup language that allows you to structure elements (such as sections, paragraphs, headings, images, etc.) to to be displayed in a web browser.",
+  "concepts": [
+    "overview",
+    "code-editors",
+    "web-page-structure",
+    "semantic-elements",
+    "forms"
+  ],
+  "courses": [
+    {
+      "title": "HTML Basics: A Free Full-Length Course",
+      "created_by": "freeCodeCamp.org",
+      "url": "https://www.freecodecamp.org/news/html-full-course-for-beginners/"
+    }
+  ]
+}

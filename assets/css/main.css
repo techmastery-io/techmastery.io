@@ -1,0 +1,33 @@
+:root {
+  @apply text-gray-700;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.toasted.toast-alert {
+  @apply font-normal p-5 bg-gray-800 text-white rounded !important;
+}
+.toast-container {
+}
+
+/* Page transtions */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 60ms ease-in;
+}
+
+.page-leave,
+.page-enter-to {
+  opacity: 1;
+}
+
+.page-leave-to,
+.page-enter {
+  opacity: 0;
+}

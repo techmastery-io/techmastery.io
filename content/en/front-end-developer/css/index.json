@@ -1,0 +1,23 @@
+{
+  "title": "CSS",
+  "summary": "@todo",
+  "concepts": [
+    "overview",
+    "basic-css-selectors",
+    "box-model",
+    "display-property",
+    "positioning",
+    "flexbox",
+    "grid",
+    "responsive-layouts",
+    "advanced-css-selectors",
+    "specificity"
+  ],
+  "courses": [
+    {
+      "title": "HTML Basics: A Free Full-Length Course",
+      "created_by": "freeCodeCamp.org",
+      "url": "https://www.freecodecamp.org/news/html-full-course-for-beginners/"
+    }
+  ]
+}

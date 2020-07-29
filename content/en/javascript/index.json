@@ -1,0 +1,63 @@
+{
+  "title": "JavaScript Developer",
+  "description": "The complete roadmap",
+  "icon": "JavaScriptIcon",
+  "bg_color": "background-image:linear-gradient(to right,  #2d3748, #586477)",
+  "sections": [
+    {
+      "title": "Basic",
+      "cores": [
+        {
+          "title": "Essentials",
+          "description": "Learn about the building blocks of the web",
+          "to": "javascript-essentials",
+          "keep_with_next": true
+        },
+        {
+          "title": "JavaScript and the DOM",
+          "description": "Learn about the building blocks of the web",
+          "to": "dom",
+          "keep_with_next": true
+        },
+        {
+          "title": "Asynchronous JavaScript",
+          "description": "Learn about interaction with the DOM, asynchronous JS, Fetch API, and JSON",
+          "to": "async-javascript"
+        }
+      ]
+    },
+    {
+      "title": "Intermediate",
+      "cores": [
+        {
+          "title": "Modern JavaScript with ES6+",
+          "description": "Arrow Functions · Promises · Async / Await · Template Strings · Destructuring",
+          "keep_with_next": true
+        },
+        {
+          "title": "Modular Javascript",
+          "description": "Learn about the building blocks of the web",
+          "keep_with_next": true
+        },
+        {
+          "title": "Iterators",
+          "description": "Learn about the building blocks of the web"
+        },
+        {
+          "title": "Errors and Exceptions",
+          "description": "Learn about the building blocks of the web"
+        }
+      ]
+    },
+    {
+      "title": "Advanced",
+      "cores": [
+        {
+          "title": "Optional paths",
+          "description": "Backend development with Javascript",
+          "choose_from": ["nodejs"]
+        }
+      ]
+    }
+  ]
+}

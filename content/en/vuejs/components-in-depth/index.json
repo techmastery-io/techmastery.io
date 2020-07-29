@@ -1,0 +1,12 @@
+{
+  "title": "Components In-Depth",
+  "summary": "",
+  "concepts": [
+    "slots",
+    "dynamic-components",
+    "async-components",
+    "render-functions",
+    "functional-components"
+  ],
+  "courses": []
+}

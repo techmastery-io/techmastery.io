@@ -1,0 +1,98 @@
+{
+  "title": "React Developer",
+  "description": "The complete roadmap",
+  "icon": "ReactIcon",
+  "bg_color": "background-image:linear-gradient(to right, #5B86E5 , #36D1DC)",
+  "sections": [
+    {
+      "title": "Essentials",
+      "cores": [
+        {
+          "title": "Main concepts",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components",
+          "to": "main-concepts",
+          "keep_with_next": true
+        },
+        {
+          "title": "Components",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components",
+          "to": "components"
+        },
+        {
+          "title": "Fetching Data",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components",
+          "to": "fetching-data"
+        },
+        {
+          "title": "Build and Deploy Basics",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components",
+          "to": "building-and-deploying"
+        }
+      ]
+    },
+    {
+      "title": "Intermediate",
+      "cores": [
+        {
+          "title": "React Router",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components"
+        },
+        {
+          "title": "State Management with Context",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components",
+          "to": "context"
+        },
+        {
+          "title": "Components In-Depth",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components"
+        },
+        {
+          "title": "Code Splitting & Lazy-loading",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components"
+        }
+      ]
+    },
+    {
+      "title": "Advanced concepts",
+      "cores": [
+        {
+          "title": "State management with Redux",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components",
+          "related_icons": ["ReduxIcon"]
+        },
+        {
+          "title": "Testing: Jest, Cypress",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components",
+          "related_icons": ["JestIcon", "CypressIcon"]
+        },
+        {
+          "title": "Type Checkers: TypeScript",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components",
+          "related_icons": ["TypeScriptIcon"]
+        },
+        {
+          "title": "Server Side Rendering: Next",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components",
+          "related_icons": ["NextIcon"]
+        },
+        {
+          "title": "Static Site Generator: Gatsby",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components",
+          "related_icons": ["GatsbyIcon"]
+        },
+        {
+          "title": "Internationalization i18n",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components"
+        },
+        {
+          "title": "Mobile: Reactive Native",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components"
+        },
+        {
+          "title": "Desktop: Electron",
+          "description": "Overview, JSX, State, Props, Components, Class Components vs Simple Components"
+        }
+      ]
+    }
+  ]
+}

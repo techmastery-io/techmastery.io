@@ -1,0 +1,111 @@
+{
+  "title": "Front-end Developer Path",
+  "type": "Roadmap",
+  "description": "The complete guide to become a front-end developer in 2020",
+  "bg_color": "background-image:linear-gradient(to right, #0072ff , #00c6ff)",
+  "sections": [
+    {
+      "title": "Essentials",
+      "cores": [
+        {
+          "title": "HTML",
+          "to": "html",
+          "related_icons": ["HtmlIcon", "VSCodeIcon"],
+          "keep_with_next": true
+        },
+        {
+          "title": "CSS",
+          "related_icons": ["CssIcon"],
+          "to": "css"
+        },
+        {
+          "title": "JavaScript Essentials",
+          "to": "javascript-essentials",
+          "related_icons": ["JavaScriptIcon"],
+          "keep_with_next": true
+        },
+        {
+          "title": "JavaScript and the DOM",
+          "to": "the-dom",
+          "related_icons": ["JavaScriptIcon"],
+          "keep_with_next": true
+        },
+        {
+          "title": "Asynchronous JavaScript",
+          "related_icons": ["JavaScriptIcon"],
+          "to": "async-javascript"
+        },
+        {
+          "title": "Essential Tools and Basic Deployment",
+          "description": "Dev Tools, Git, Code Repositories and how to publish your website.",
+          "related_icons": ["GitIcon", "GitHubIcon"],
+          "to": "essential-tools"
+        }
+      ]
+    },
+    {
+      "title": "Intermediate",
+      "cores": [
+        {
+          "title": "Modern JavaScript with ES6+",
+          "description": "Arrow Functions · Promises · Async / Await · Template Strings · Destructuring",
+          "related_icons": ["JavaScriptIcon"],
+          "to": "es6"
+        },
+        {
+          "title": "Choose a Framework",
+          "to": "choose-a-framework",
+          "description": "Here you will find some information that will help to choose.",
+          "choose_from": ["vuejs", "react", "angular"]
+        },
+        {
+          "title": "Additional Tools",
+          "description": "Familiarize yourself with ESLint, Package Managers, Babel, VSCode Extensions and Prettier",
+          "related_icons": ["NpmIcon", "BabelIcon", "PrettierIcon"],
+          "keep_with_next": true
+        },
+        {
+          "title": "Build Tools",
+          "description": "Learn about Webpack, Parcel and Rollup",
+          "related_icons": ["WebpackIcon"]
+        },
+        {
+          "title": "Modern CSS",
+          "description": "SASS preprocessor, animation, transitions, frameworks and libraries",
+          "related_icons": ["SassIcon"]
+        }
+      ]
+    },
+    {
+      "title": "Advanced",
+      "cores": [
+        {
+          "title": "Advanced JavaScript",
+          "description": "Functional Programming and Typescript",
+          "related_icons": ["TypeScriptIcon"]
+        },
+        {
+          "title": "Testing",
+          "description": "Learn about the foundations of the web."
+        },
+        {
+          "title": "CI/CD",
+          "description": "Learn about Continuous Integration / Continuous Delivery"
+        },
+        {
+          "title": "Web components",
+          "description": "Learn about the foundations of the web."
+        },
+        {
+          "title": "Optional paths",
+          "description": "You can keep learning and choose a new path to trail:",
+          "choose_from": [
+            "back-end-developer",
+            "mobile-applications-roadmap",
+            "desktop-applications-roadmap"
+          ]
+        }
+      ]
+    }
+  ]
+}

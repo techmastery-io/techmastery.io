@@ -1,0 +1,104 @@
+{
+  "title": "Backend Developer",
+  "description": "The complete roadmap",
+  "bg_color": "background-image:linear-gradient(to right, #16222A, #3A6073)",
+  "underDevelopment": true,
+  "sections": [
+    {
+      "title": "Essentials",
+      "cores": [
+        {
+          "title": "Prerequisites and Responsibilities",
+          "description": "Learn about the building blocks of the web",
+          "to": "prerequisites-and-responsibilities"
+        },
+        {
+          "title": "Web Servers and the Internet",
+          "description": "Client, servers, protocols, HTTP verbs, HTTP codes and web servers"
+        },
+        {
+          "title": "Relational Databases",
+          "description": "Data, tables, queries, SQL and ORM"
+        },
+        {
+          "title": "REST APIs",
+          "description": "@todo"
+        },
+        {
+          "title": "Choose a Language",
+          "to": "choose-a-language",
+          "description": "Here you will find some information that will help to choose.",
+          "choose_from": ["python", "javascript"]
+        }
+      ]
+    },
+    {
+      "title": "Intermediate",
+      "cores": [
+        {
+          "title": "Testing",
+          "description": "Learn about the building blocks of the web"
+        },
+        {
+          "title": "Data structures & Algorithms",
+          "description": "Learn about the building blocks of the web"
+        },
+
+        {
+          "title": "Security",
+          "description": "Authentication & Authorization, OATH, JWT"
+        },
+        {
+          "title": "Containers with Docker",
+          "description": "Learn about the building blocks of the web"
+        },
+        {
+          "title": "Cloud platforms",
+          "description": "Learn about the building blocks of the web"
+        },
+        {
+          "title": "NoSQL Databases",
+          "description": "Learn about the building blocks of the web"
+        }
+      ]
+    },
+    {
+      "title": "Advanced",
+      "cores": [
+        {
+          "title": "Serverless",
+          "description": "Learn about the building blocks of the web"
+        },
+        {
+          "title": "GraphQL API",
+          "description": "Learn about the building blocks of the web"
+        },
+        {
+          "title": "Caching",
+          "description": "Learn about the building blocks of the web"
+        },
+        {
+          "title": "Real time with Websockets",
+          "description": "Learn about the building blocks of the web"
+        },
+        {
+          "title": "Search Engines",
+          "description": "Learn about the building blocks of the web"
+        },
+        {
+          "title": "Message brokers",
+          "description": "Learn about the building blocks of the web"
+        },
+        {
+          "title": "Deploying",
+          "description": "Learn about the building blocks of the web"
+        },
+        {
+          "title": "Optional paths",
+          "description": "You can keep learning and choose a new path to trail:",
+          "choose_from": ["devops"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "JavaScript and the DOM",
+  "summary": "@todo",
+  "concepts": ["the-dom", "interacting-with-the-dom", "events"],
+  "courses": [
+    {
+      "title": "JavaScript DOM Course",
+      "created_by": "The Net Ninja",
+      "url": "https://www.youtube.com/watch?v=FIORjGvT0kk&list=PL4cUxeGkcC9gfoKa5la9dsdCNpuey2s-V"
+    },
+    {
+      "title": "JavaScript DOM Crash Course",
+      "created_by": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s"
+    }
+  ]
+}

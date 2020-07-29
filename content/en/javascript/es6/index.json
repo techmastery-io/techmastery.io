@@ -1,0 +1,13 @@
+{
+  "title": "Modern JavaScript with ES6+",
+  "summary": "",
+  "concepts": [
+    "overview",
+    "arrow-functions",
+    "promises",
+    "async-await",
+    "template-literals",
+    "destructuring"
+  ],
+  "courses": []
+}

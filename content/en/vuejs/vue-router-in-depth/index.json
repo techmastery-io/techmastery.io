@@ -1,0 +1,6 @@
+{
+  "title": "Vue router In-Depth",
+  "summary": "",
+  "concepts": ["lazy-loading", "navigation-guards", "global-router-hooks"],
+  "courses": []
+}

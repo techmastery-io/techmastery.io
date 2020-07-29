@@ -1,0 +1,12 @@
+{
+  "title": "Additional Tools",
+  "summary": "You won't need to absolutely master all these tools, but it's really  important that you understand what they do and what problems they solve.",
+  "concepts": [
+    "eslint",
+    "package-managers",
+    "babel",
+    "vscode-extensions",
+    "prettier"
+  ],
+  "courses": []
+}

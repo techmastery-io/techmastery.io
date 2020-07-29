@@ -1,0 +1,13 @@
+{
+  "title": "State management with Vuex",
+  "summary": "",
+  "concepts": ["overview"],
+  "courses": [
+    {
+      "title": "Learn Vuex (Suggested in the Vuex official Docs)",
+      "created_by": "Connor Lindsey",
+      "type": "Free",
+      "url": "https://scrimba.com/g/gvuex"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Python Developer",
+  "description": "The complete roadmap",
+  "icon": "PythonIcon",
+  "bg_color": "background-image:linear-gradient(to right, #35495E, #3775A9)",
+  "underDevelopment": true,
+  "sections": [
+    {
+      "title": "Essentials",
+      "cores": [
+        {
+          "title": "Core Concepts",
+          "description": "Arrow Functions · Promises · Async / Await · Template Strings · Destructuring"
+        },
+        {
+          "title": "Frameworks",
+          "description": "Arrow Functions · Promises · Async / Await · Template Strings · Destructuring"
+        },
+        {
+          "title": "Testing",
+          "description": "Arrow Functions · Promises · Async / Await · Template Strings · Destructuring"
+        }
+      ]
+    }
+  ]
+}
