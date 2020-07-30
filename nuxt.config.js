@@ -206,5 +206,8 @@ export default {
     vueI18n: {
       fallbackLocale: 'en'
     }
+  },
+  env: {
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
   }
 }

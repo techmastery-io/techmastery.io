@@ -36,7 +36,7 @@
 export default {
   computed: {
     baseUrl() {
-      return process.env.BASE_URL
+      return process.env.baseUrl
     }
   }
 }
