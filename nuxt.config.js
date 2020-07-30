@@ -188,7 +188,7 @@ export default {
     host: '0.0.0.0'
   },
   purgeCSS: {
-    whitelistPatternsChildren: [/swiper/, /^token/, /^pre/, /^code/]
+    whitelistPatternsChildren: [/swiper/, /^token/, /^pre/, /^code/, /^toasted/]
   },
   i18n: {
     strategy: 'prefix_except_default',
