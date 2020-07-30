@@ -45,7 +45,9 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    // Doc: https://pwa.nuxtjs.org/setup.html
+    ['@nuxtjs/pwa', { workbox: false }]
   ],
   /*
    ** Nuxt.js modules
