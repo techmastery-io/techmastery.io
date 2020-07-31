@@ -61,7 +61,7 @@
     <!-- Decision Panel (slider) -->
     <div
       v-if="isDecisionComponent"
-      class="md:-mx-64 carrousel flex mt-6 overflow-x-scroll"
+      class="md:-mx-64 carrousel flex mt-6 overflow-x-scroll md:overflow-x-auto"
     >
       <swiper class="swiper" :options="swiperOption">
         <swiper-slide
