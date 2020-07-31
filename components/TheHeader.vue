@@ -38,7 +38,7 @@
             ><GitHubIcon
               class="h-5 transform   hover:scale-125 w-auto mr-5 duration-200 transition-transform"
           /></a>
-          <a href=""
+          <a href="https://twitter.com/techmastery_io" target="_blank"
             ><TwitterIcon
               class="h-5 transform hover:scale-125 w-auto fill-current mr-5 duration-200 transition-transform"
           /></a>
