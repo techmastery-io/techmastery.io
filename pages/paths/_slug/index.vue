@@ -51,6 +51,11 @@ import CoreCard from '@/components/CoreCard.vue'
 import RoadmapSection from '@/components/RoadmapSection.vue'
 import PageHeader from '@/components/PageHeader.vue'
 export default {
+  head() {
+    return {
+      title: this.roadmap.title
+    }
+  },
   meta: { theme: 'dark' },
   components: {
     CoreCard,

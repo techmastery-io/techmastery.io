@@ -3,9 +3,9 @@
     class="px-5 relative pt-8 pb-16 text-white text-center overflow-hidden"
     :style="props.bgColor"
   >
-    <div class="max-w-md flex justify-center items-center mx-auto">
+    <div class="max-w-lg flex justify-center items-center mx-auto">
       <div v-if="props.icon">
-        <component :is="props.icon" class="mr-5 h-12 w-auto" />
+        <component :is="props.icon" class="mr-5 h-12 md:h-20 w-auto" />
       </div>
       <div>
         <h1 class="text-2xl lg:text-3xl">
