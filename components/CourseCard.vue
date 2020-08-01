@@ -17,7 +17,12 @@
       <div v-else>
         <p>
           No related course available yet.
-          <span class="text-blue-500">Suggest one here.</span>
+          <a
+            href="https://github.com/jonathanmach/techmastery.io/issues"
+            target="_blank"
+            class="text-blue-500"
+            >Suggest one here.</a
+          >
         </p>
       </div>
     </div>
