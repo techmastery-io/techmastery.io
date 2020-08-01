@@ -6,7 +6,7 @@
         <div class="text-right ">
           <span class="inline-block cursor-pointer" @click="$emit('close')">
             <CloseIcon
-              class="w-5 h-auto transform hover:rotate-90 transition-transform duration-300"
+              class="w-5 h-auto transform hover:scale-110 transition-transform duration-200"
             />
           </span>
         </div>
