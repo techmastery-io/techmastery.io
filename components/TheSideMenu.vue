@@ -35,10 +35,14 @@
       </client-only>
       <hr class="m-4" />
 
-      <div class="nav-item">
+      <a
+        href="https://github.com/jonathanmach/techmastery.io"
+        target="_blank"
+        class="nav-item"
+      >
         <GitHubIcon class="w-6 h-auto" />
         <span class="ml-3">Contribute</span>
-      </div>
+      </a>
       <a
         href="https://twitter.com/techmastery_io"
         target="_blank"
