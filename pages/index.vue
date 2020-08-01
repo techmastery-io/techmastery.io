@@ -12,14 +12,6 @@ import HomeChoosePath from '@/components/partials/HomeChoosePath.vue'
 import HomeChooseTechnology from '@/components/partials/HomeChooseTechnology'
 
 export default {
-  head() {
-    return {
-      title: 'TechMastery.io - Leaning Paths for Self-Taught Developers'
-    }
-  },
-  meta: {
-    theme: 'light'
-  },
   components: {
     HomeWelcome,
     HomeChoosePath,
@@ -32,6 +24,14 @@ export default {
     featuredTechRoadmaps() {
       return this.$store.state.featuredTechRoadmaps
     }
+  },
+  head() {
+    return {
+      title: 'TechMastery.io - Leaning Paths for Self-Taught Developers'
+    }
+  },
+  meta: {
+    theme: 'light'
   }
 }
 </script>

@@ -51,12 +51,6 @@ import CoreCard from '@/components/CoreCard.vue'
 import RoadmapSection from '@/components/RoadmapSection.vue'
 import PageHeader from '@/components/PageHeader.vue'
 export default {
-  head() {
-    return {
-      title: this.roadmap.title
-    }
-  },
-  meta: { theme: 'dark' },
   components: {
     CoreCard,
     PageHeader,
@@ -65,7 +59,13 @@ export default {
   async asyncData({ params, app, store, payload, $content }) {
     const roadmap = await $content(`en/${params.slug}`, 'index').fetch()
     return { roadmap }
-  }
+  },
+  head() {
+    return {
+      title: this.roadmap.title
+    }
+  },
+  meta: { theme: 'dark' }
 }
 </script>
 
