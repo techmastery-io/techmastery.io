@@ -3,15 +3,15 @@ export const featuredTechRoadmaps = ['vuejs', 'react', 'python', 'javascript']
 
 export const roadmapsIndex = {
   'front-end-developer': {
-    title: 'Frontend Developer',
+    title: 'Front-End Developer',
     slug: 'front-end-developer',
-    description: 'The complete roadmap',
+    description: 'Path to modern front-end development',
     bg_color: 'background-image:linear-gradient(to right, #0072ff , #00c6ff)'
   },
   'back-end-developer': {
-    title: 'Backend Developer',
+    title: 'Back-End Developer',
     slug: 'back-end-developer',
-    description: 'The complete roadmap',
+    description: 'Become a back-end developer',
     bg_color: 'background-image:linear-gradient(to right, #16222A, #3A6073 )'
   },
   vuejs: {
