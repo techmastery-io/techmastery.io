@@ -27,27 +27,32 @@
       </span>
     </div>
     <!-- Content -->
-    <div v-show="show" class="mt-4 text-gray-700">
-      <nuxt-content class="markdown" :document="concept" />
-      <!-- More on Google | Youtube -->
-      <div v-if="concept.keywords" class="mt-4 text-xs text-right">
-        <span class="text-gray-600">More on:</span>
-        <a
-          :href="`https://www.google.com/search?q=${concept.keywords}`"
-          target="_blank"
-          >Google</a
-        >
-        |
-        <a
-          :href="
-            `http://www.youtube.com/results?search_query=${concept.keywords}`
-          "
-          target="_blank"
-          >Youtube</a
-        >
-      </div>
+    <div class="overflow-hidden">
+      <transition name="animation">
+        <div v-show="show" class="mt-4 text-gray-700">
+          <nuxt-content class="markdown" :document="concept" />
+          <!-- More on Google | Youtube -->
+          <div v-if="concept.keywords" class="mt-4 text-xs text-right">
+            <span class="text-gray-600">More on:</span>
+            <a
+              :href="`https://www.google.com/search?q=${concept.keywords}`"
+              target="_blank"
+              >Google</a
+            >
+            |
+            <a
+              :href="
+                `http://www.youtube.com/results?search_query=${concept.keywords}`
+              "
+              target="_blank"
+              >Youtube</a
+            >
+          </div>
+        </div>
+      </transition>
     </div>
     <!-- User unauthenticated modal -->
+    <!-- @fix @todo BaseModal being rendered multiple times unecessaryly -->
     <BaseModal :show="showLoginModal" @close="showLoginModal = false">
       <template v-slot:header>
         Login to save your progress
@@ -128,5 +133,15 @@ export default {
 iframe {
   width: 100%;
   height: 56.25vw;
+}
+
+.animation-enter-active,
+.animation-leave-active {
+  transition: opacity 200ms ease-in, transform 200ms ease-out;
+}
+.animation-enter,
+.animation-leave-to {
+  opacity: 0;
+  transform: translateY(-500px);
 }
 </style>
