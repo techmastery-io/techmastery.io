@@ -11,7 +11,9 @@
       <!-- HomeIcon / Action -->
       <div>
         <nuxt-link v-if="iconAction.to" :to="iconAction.to">
-          <Logo class="h-6 md:h-7 w-auto" />
+          <Logo
+            class="h-6 md:h-7 w-auto transform hover:scale-110 duration-200 transition-transform"
+          />
         </nuxt-link>
         <!-- BackArrow using $router.go(-1) -->
         <component
@@ -38,7 +40,7 @@
             href="https://github.com/jonathanmach/techmastery.io"
             target="_blank"
             ><GitHubIcon
-              class="h-5 transform   hover:scale-125 w-auto mr-5 duration-200 transition-transform"
+              class="h-5 w-auto mr-5 transform hover:scale-125 duration-200 transition-transform"
           /></a>
           <a href="https://twitter.com/techmastery_io" target="_blank"
             ><TwitterIcon
@@ -47,7 +49,9 @@
         </div>
         <!-- Menu -->
         <div class="" @click.stop="toggleSideMenu">
-          <header-menu class="h-8 w-auto cursor-pointer" />
+          <header-menu
+            class="h-8 w-auto cursor-pointer transform hover:scale-110 duration-200 transition-transform"
+          />
         </div>
       </div>
     </div>
