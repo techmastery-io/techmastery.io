@@ -1,10 +1,10 @@
-# roadmaps-project
+# TechMastery.io
 
 > A free and opensource project, curated by the community, that aims to help you design your career in the tech industry.
 
 ## Build Setup
 
-```bash
+``` bash
 # install dependencies
 $ npm install
 

@@ -6,7 +6,7 @@
           <div class="text-4xl mb-4">
             <Logo class="h-32 w-auto inline-block" />
           </div>
-          <div class="text-4xl mb-10">Great to have you</div>
+          <div class="text-3xl mb-10">Great to have you with us!</div>
           <div class="flex flex-col mx-auto items-center ">
             <GoogleSigninButton class="mb-8" />
             <!-- <GitHubSigninButton /> -->
