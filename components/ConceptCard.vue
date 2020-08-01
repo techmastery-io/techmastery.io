@@ -9,7 +9,7 @@
         {{ `${index + 1}. ${concept.title}` }}
       </h2>
       <span
-        class="m-2 transform hover:scale-125 transition-transform duration-300"
+        class="p-2 transform hover:scale-125 transition-transform duration-300"
         @click.stop="toggleCompleted()"
       >
         <svg
