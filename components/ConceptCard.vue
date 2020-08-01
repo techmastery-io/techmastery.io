@@ -27,7 +27,7 @@
       </span>
     </div>
     <!-- Content -->
-    <div class="overflow-hidden">
+    <div class="overflow-hidden -mx-4 px-4">
       <transition name="animation">
         <div v-show="show" class="mt-4 text-gray-700">
           <nuxt-content class="markdown" :document="concept" />
