@@ -28,7 +28,7 @@
 
 .markdown > p > img,
 .markdown > img {
-  @apply mx-auto rounded-md;
+  @apply mx-auto rounded-md w-full;
 }
 .markdown > a {
   @apply text-blue-600 font-semibold;
