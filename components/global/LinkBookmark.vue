@@ -79,19 +79,27 @@ export default {
       default: null
     }
   },
+
   hasDefaultSlot(node) {
     // Using a component with slot in markdown returns an element.text == '\n'
     // when no slot is passed. Ex: <link-bookmark></link-bookmark>
 
     return !(node.length === 1 && node[0].text === '\n')
   },
+
   getFavIcon(url) {
     const domain = url
       .replace('http://', '')
       .replace('https://', '')
       .split(/[/?#]/)[0]
-    return `https://www.google.com/s2/favicons?sz=32&domain=${domain}`
+
+    if (domain.includes('youtube')) {
+      return '/ico_youtube.png'
+    } else {
+      return `https://www.google.com/s2/favicons?sz=32&domain=${domain}`
+    }
   },
+
   getIcon(props) {
     if (!props.icon) {
       const url = props.href
