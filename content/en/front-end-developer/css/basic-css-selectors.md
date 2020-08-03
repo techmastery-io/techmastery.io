@@ -5,12 +5,13 @@ id: kstv55yEogbdAxljvOALR
 Learn how to target your HTML elements so that you can apply styles to them. For example, if you wanted every paragraph in your page to be red, you would write:
 
 ``` css
+/* The selector p is going to target 
+every paragraph element on the page.*/
+
 p {
     color: red
 }
 ```
-
-In this case, `p` is the selector that will target every paragraph element on the page. 
 
 At this point, focus on learning the most basic CSS selectors. We will tackle more advanced selectors later on in this module.
 
@@ -21,7 +22,7 @@ Basic CSS selectors you need to know:
 * Class Selector
 * ID Selectors
 
-@todo picture (as on Notion)
+<lazy-image class="max-w-lg" src="front-end-developer/en/css-selector.png"></lazy-image>
 
 <link-bookmark href="https://www.youtube.com/watch?v=dcCCOiQ1ZuM" title="CSS Selectors Made Easy - HTML CSS Tutorial for Beginners">
 

@@ -26,8 +26,9 @@
   @apply font-semibold;
 }
 
-.markdown > p > img {
-  @apply mx-auto;
+.markdown > p > img,
+.markdown > img {
+  @apply mx-auto rounded-md;
 }
 .markdown > a {
   @apply text-blue-600 font-semibold;
