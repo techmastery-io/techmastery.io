@@ -11,7 +11,7 @@
         class="block xl:w-1/4 w-full pl-4 md:pl-8 xl:pl-0 md:max-w-3xl mx-auto mb-10 xl:sticky xl:top-2 xl:self-start"
       >
         <h2>Concepts</h2>
-        <ol class="list-decimal pl-4 text-gray-600">
+        <ol class="list-inside list-decimal pl-0 text-gray-600">
           <li
             v-for="(concept, index) in core.concepts"
             :key="index"
