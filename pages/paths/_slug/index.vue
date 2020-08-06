@@ -12,7 +12,16 @@
       class="relative bg-blue-500 text-white py-4"
     >
       <p>Under Development</p>
-      <p class="text-sm">We're still enhancing and curating this roadmap</p>
+      <p class="text-sm">
+        We're still enhancing and curating this roadmap. Contribute on
+        <a
+          :href="$store.state.GITHUB_URL"
+          target="_blank"
+          class="cursor-pointer underline"
+        >
+          GitHub.</a
+        >
+      </p>
     </div>
 
     <!-- Original view (Cards) -->

@@ -55,8 +55,8 @@ export const roadmapsIndex = {
     icon: 'AngularIcon',
     bg_color: 'background-image:linear-gradient(to right, #0d47a1,#42a5f5)'
   },
-  'desktop-applications-roadmap': {
-    title: 'Desktop Applications',
+  'desktop-apps': {
+    title: 'Desktop App Developer',
     slug: 'desktop-applications-roadmap',
     description: 'The complete roadmap',
     bg_color: 'background-image:linear-gradient(to right, #0d47a1,#42a5f5)'
@@ -67,10 +67,10 @@ export const roadmapsIndex = {
     description: 'The complete roadmap',
     bg_color: 'background-image:linear-gradient(to right, #2d3748, #586477)'
   },
-  'mobile-applications-roadmap': {
-    title: 'Mobile Applications',
+  'mobile-apps': {
+    title: 'Mobile App Developer',
     slug: 'mobile-applications-roadmap',
     description: 'The complete roadmap',
-    bg_color: 'background-image:linear-gradient(to right, #5B86E5 , #36D1DC)'
+    bg_color: 'background-image:linear-gradient(to right,  #0d47a1,#42a5f5)'
   }
 }

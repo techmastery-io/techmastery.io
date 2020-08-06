@@ -1,0 +1,17 @@
+{
+  "title": "Desktop App Development",
+  "description": "The complete Desktop App Development guide",
+  "bg_color": "background-image:linear-gradient(to right,  #0d47a1,#42a5f5)",
+  "underDevelopment": true,
+  "sections": [
+    {
+      "title": "Essentials",
+      "cores": [
+        {
+          "title": "Core Concepts",
+          "description": "Arrow Functions · Promises · Async / Await · Template Strings · Destructuring"
+        }
+      ]
+    }
+  ]
+}

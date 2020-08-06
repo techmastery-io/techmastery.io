@@ -4,7 +4,8 @@ export const state = () => ({
   roadmapsIndex: {},
   featuredRoadmaps: [],
   featuredTechRoadmaps: [],
-  showSideMenu: false
+  showSideMenu: false,
+  GITHUB_URL: 'https://github.com/jonathanmach/techmastery.io'
 })
 
 export const getters = {

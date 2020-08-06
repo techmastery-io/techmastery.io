@@ -35,11 +35,7 @@
       </client-only>
       <hr class="m-4" />
 
-      <a
-        href="https://github.com/jonathanmach/techmastery.io"
-        target="_blank"
-        class="nav-item"
-      >
+      <a :href="$store.state.GITHUB_URL" target="_blank" class="nav-item">
         <GitHubIcon class="w-6 h-auto" />
         <span class="ml-3">Contribute</span>
       </a>

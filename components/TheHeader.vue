@@ -36,9 +36,7 @@
             'text-gray-500 ': !iconAction.dark
           }"
         >
-          <a
-            href="https://github.com/jonathanmach/techmastery.io"
-            target="_blank"
+          <a :href="$store.state.GITHUB_URL" target="_blank"
             ><GitHubIcon
               class="h-5 w-auto mr-5 transform hover:scale-125 duration-200 transition-transform"
           /></a>

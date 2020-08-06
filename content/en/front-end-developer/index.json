@@ -99,11 +99,7 @@
         {
           "title": "Optional paths",
           "description": "You can keep learning and choose a new path to trail:",
-          "choose_from": [
-            "back-end-developer",
-            "mobile-applications-roadmap",
-            "desktop-applications-roadmap"
-          ]
+          "choose_from": ["back-end-developer", "mobile-apps", "desktop-apps"]
         }
       ]
     }
