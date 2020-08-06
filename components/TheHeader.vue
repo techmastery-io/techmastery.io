@@ -2,39 +2,36 @@
   <header
     class="px-5 py-3 md:py-4  top-0 w-full z-10"
     :style="bgColor"
-    :class="{
-      'text-white': iconAction.dark,
-      'text-gray-700': !iconAction.dark
-    }"
+    :class="[$store.state.theme === 'dark' ? 'text-white' : 'text-gray-700']"
   >
     <div class="flex justify-between max-w-screen-xl mx-auto items-center">
       <!-- HomeIcon / Action -->
       <div>
-        <nuxt-link v-if="iconAction.to" :to="iconAction.to">
+        <!-- We're hiding when on ConceptPages instead of using v-if so it will prefetch the previous page on first access -->
+        <nuxt-link
+          :to="backBtnUrl ? backBtnUrl : '/'"
+          :class="{ hidden: $route.params.core }"
+        >
           <Logo
             class="h-6 md:h-7 w-auto transform hover:scale-110 duration-200 transition-transform"
           />
         </nuxt-link>
-        <!-- BackArrow using $router.go(-1) -->
-        <component
-          :is="iconAction.icon"
-          v-else
-          class="h-5 w-auto cursor-pointer"
-          @click.stop.native="$router.go(-1)"
-        />
-      </div>
-      <!-- Text content -->
-      <div v-if="$route.params.core" class="ml-4 flex-grow text-left text-lg">
-        {{ roadmap.title }}
+        <!-- BackButton -->
+        <div
+          v-if="$route.params.core"
+          class="flex items-center text-left cursor-pointer text-lg"
+          @click="backAction"
+        >
+          <ArrowIcon class="h-5 w-auto mr-3" />
+          {{ roadmap.title }}
+        </div>
       </div>
 
+      <!-- Social Links -->
       <div class="flex ">
         <div
           class="flex items-center"
-          :class="{
-            'text-white': iconAction.dark,
-            'text-gray-500 ': !iconAction.dark
-          }"
+          :class="{ 'text-gray-500': $store.state.theme === 'light' }"
         >
           <a :href="$store.state.GITHUB_URL" target="_blank"
             ><GitHubIcon
@@ -69,7 +66,8 @@ export default {
   data() {
     return {
       iconAction: {},
-      show: false
+      show: false,
+      backBtnUrl: null
     }
   },
   computed: {
@@ -88,39 +86,14 @@ export default {
     '$route.params': {
       immediate: true,
       handler(params, prevRouteParams) {
-        // This logic controls the HomeIcon/ActionIcon in the Navbar
-        if (params.core) {
-          // CorePage, shows backArrow
-          this.iconAction = {
-            icon: 'ArrowIcon',
-            dark: true
-          }
-          if (!prevRouteParams) {
-            // No prevRouteParams, we assume there`s no route.go(-1) to go
-            // then, we'll navigate back to the corresponding Roadmap page
-            this.iconAction.to = this.localePath({
-              name: 'paths-slug',
-              params: { slug: params.slug }
-            })
-          } else {
-            // With this property == null, we will render a different
-            // element other than the nuxt-link> in order to use route.go(-1)
-            this.iconAction.to = null
-          }
-        } else if (params.slug) {
-          // RoadmapPage - actionIcon will point to home
-          this.iconAction = {
-            icon: 'LogoArrow',
-            dark: true,
-            to: this.localePath('/')
-          }
-        } else {
-          // HomePage
-          this.iconAction = {
-            icon: 'Logo',
-            dark: false,
-            to: this.localePath('/')
-          }
+        this.backBtnUrl = null
+        if (!prevRouteParams) {
+          // No prevRouteParams, we assume there`s no route.go(-1) to go
+          // then, we'll navigate back to the corresponding Roadmap page
+          this.backBtnUrl = this.localePath({
+            name: 'paths-slug',
+            params: { slug: params.slug }
+          })
         }
       }
     }
@@ -128,6 +101,13 @@ export default {
   methods: {
     toggleSideMenu() {
       this.show = !this.show
+    },
+    backAction() {
+      if (!this.backBtnUrl) {
+        this.$router.go(-1)
+      } else {
+        this.$router.push(this.backBtnUrl)
+      }
     }
   }
 }

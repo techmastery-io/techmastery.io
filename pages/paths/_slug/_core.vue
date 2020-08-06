@@ -5,8 +5,8 @@
       :title="core.title"
       :summary="core.summary"
     />
-    <!-- TOC - Table of Content @todo extract to its own component -->
     <div class="flex xl:flex-row flex-col my-6 xl:px-8">
+      <!-- TOC - Table of Content @todo extract to its own component -->
       <div
         class="block xl:w-1/4 w-full pl-4 md:pl-8 xl:pl-0 md:max-w-3xl mx-auto mb-10 xl:sticky xl:top-2 xl:self-start"
       >
@@ -70,7 +70,6 @@ export default {
   async asyncData({ params, app, store, payload, $content }) {
     // @todo: do we still get a payload in the current Nuxt version?
     // if (payload) return { roadmap: payload }
-
     const roadmap = await $content('en', params.slug, 'index')
       .only(['title', 'bg_color'])
       .fetch()
