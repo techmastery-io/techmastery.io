@@ -1,5 +1,7 @@
 # TechMastery.io
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cd7a9225-496b-491a-ad65-36fd1112f01a/deploy-status)](https://app.netlify.com/sites/eager-cray-0b0f14/deploys)
+
 > A free and opensource project, curated by the community, that aims to help you design your career in the tech industry.
 
 ## Build Setup
