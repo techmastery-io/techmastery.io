@@ -190,6 +190,7 @@ export default {
     host: '0.0.0.0'
   },
   purgeCSS: {
+    whitelist: ['hidden'],
     whitelistPatternsChildren: [/swiper/, /^token/, /^pre/, /^code/, /^toasted/]
   },
   i18n: {
