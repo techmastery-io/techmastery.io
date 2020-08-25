@@ -47,7 +47,14 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
     // Doc: https://pwa.nuxtjs.org/setup.html
-    ['@nuxtjs/pwa', { workbox: false }]
+    ['@nuxtjs/pwa', { workbox: false }],
+    // Doc: https://github.com/nuxt-community/analytics-module
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-159441322-3'
+      }
+    ]
   ],
   /*
    ** Nuxt.js modules
