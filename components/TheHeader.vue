@@ -87,7 +87,7 @@ export default {
       immediate: true,
       handler(params, prevRouteParams) {
         this.backBtnUrl = null
-        if (!prevRouteParams) {
+        if (!prevRouteParams && this.$route.params.core) {
           // No prevRouteParams, we assume there`s no route.go(-1) to go
           // then, we'll navigate back to the corresponding Roadmap page
           this.backBtnUrl = this.localePath({
